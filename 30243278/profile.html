@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>María Miranda</title>
+  <link rel="icon" sizes="32x32"   href="../icon/cropped-logonuevo-32x32.png">
+  <style>
+    @import "../css/_theme.css";
+
+    * { font-family: var(--primary-font); }
+
+.profile-card {
+  display: flex;
+  align-items: stretch;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);  
+}
+
+.photo-wrapper {
+  flex-shrink: 0;
+  border-bottom-right-radius: 0px;  
+  overflow: hidden;
+  border-right: 4px solid var(--main-color);
+  background-color: var(--main-color); 
+}
+
+.photo-wrapper img {
+  width: 280px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-bottom-right-radius: 40px;
+}
+
+    .info { padding: 24px; }
+
+    .info h1 { color: var(--main-color); margin: 0 0 12px; }
+
+    .info p.bio { font-style: italic; font-family: var(--condensed-font); }
+
+    .info table { border-collapse: collapse; margin: 12px 0; }
+    .info table td { padding: 2px 16px 2px 0; }
+
+a { 
+  color: var(--main-color);  
+}
+a:active { 
+  color: var( --accent-color); 
+}
+  </style>
+</head>
+<body>
+  <header></header>
+
+  <section>
+    <div class="profile-card">
+      <div class="photo-wrapper">
+        <img src="30243278.jpg" alt="Foto de perfil">
+      </div>
+      <div class="info">
+        <h1>María Miranda</h1>
+        <p class="bio">
+          Holii soy estudiante de Computación en la Universidad Central de Venezuela (UCV).
+          Me gusta mucho la rama de Bases de datos, principalmente orientado en la parte de inteligencia de negocios. Actualmente soy preparadora de la materia matematicas discretas 1 y ha sido toda una experiencia.
+        </p>
+        <table>
+          <tr><td>Mi color favorito es:</td>      <td>Rojo</td></tr>
+          <tr><td>Mi libro favorito es:</td>       <td>Omniscient reader</td></tr>
+          <tr><td>Mi género musical favorito es:</td><td>pop alternativo</td></tr>
+          <tr><td>Mi videojuego favorito es:</td>  <td>angry birds</td></tr>
+          <tr>
+            <td>Lenguajes de programación aprendidos:</td>
+            <td>C++, Java, Python, SQL </td>
+          </tr>
+        </table>
+        <p>
+          Si necesitan comunicarse conmigo me pueden escribir a:
+          <a href="mailto:maria14miranda@gmail.com">maria14miranda@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer></footer>
+</body>
+</html>
