@@ -104,7 +104,7 @@ section h2 {
 }
 
 .student-card:hover img { 
-  transform: rotate(3deg) scale(1.1); 
+  transform: rotate(2deg) scale(1.1); 
 }
 
 .student-card:hover .card-footer { 
